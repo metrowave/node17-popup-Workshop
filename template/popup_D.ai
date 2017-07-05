@@ -1,0 +1,188 @@
+%!PS-Adobe-3.0
+%%Creator: Rhinoceros
+%%Title: (popup_D [Converted].ai)
+%%BoundingBox: -5236 -1073 1 1
+%%DocumentProcessColors: Black
+%%DocumentNeededResources: procset Adobe_packedarray 2.0 0
+%%+ procset Adobe_cmykcolor 1.1 0
+%%+ procset Adobe_cshow 1.1 0
+%%+ procset Adobe_customcolor 1.0 0
+%%+ procset Adobe_typography_AI3 1.0 0
+%%+ procset Adobe_IllustratorA_AI3 1.0 0
+%AI3_ColorUsage: Color
+%AI3_TemplateBox: 288 384 288 384
+%AI3_TileBox: 0 0 576 768
+%AI3_DocumentPreview: None
+%%Template:
+%%PageOrigin:0 0
+%%EndComments
+%%BeginProlog
+%%IncludeResource: procset Adobe_packedarray 2.0 0
+Adobe_packedarray /initialize get exec
+%%IncludeResource: procset Adobe_cmykcolor 1.1 0
+%%IncludeResource: procset Adobe_cshow 1.1 0
+%%IncludeResource: procset Adobe_customcolor 1.0 0
+%%IncludeResource: procset Adobe_typography_AI3 1.0 0
+%%IncludeResource: procset Adobe_IllustratorA_AI3 1.0 0
+%%EndProlog
+%%BeginSetup
+Adobe_cmykcolor /initialize get exec
+Adobe_cshow /initialize get exec
+Adobe_customcolor /initialize get exec
+Adobe_typography_AI3 /initialize get exec
+Adobe_IllustratorA_AI3 /initialize get exec
+%%EndSetup
+%AI5_BeginLayer
+1 1 1 1 0 0 -1 0 0 255 Lb
+(frames) Ln
+0 A
+0 R
+0.0000 0.0000 1.0000 XA
+0.0000 0.0000 1.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-5235.6008 -1071.5026 m
+-4388.9723 -1071.5026 L
+-4388.9723 -474.3805 L
+-5235.6008 -474.3805 L
+-5235.6008 -1071.5026 L
+s
+LB
+%AI5_EndLayer--
+%AI5_BeginLayer
+1 1 1 1 0 0 -1 6 255 0 Lb
+(D::valley) Ln
+0 A
+0 R
+0.0235 1.0000 0.0000 XA
+0.0235 1.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-4927.2166 -562.3468 m
+-4927.2166 -811.5025 L
+S
+0.0235 1.0000 0.0000 XA
+0.0235 1.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-5086.8834 -848.1488 m
+-5086.8834 -1071.5067 L
+S
+LB
+%AI5_EndLayer--
+%AI5_BeginLayer
+1 1 1 1 0 0 -1 255 134 0 Lb
+(D::mountain) Ln
+0 A
+0 R
+1.0000 0.5255 0.0000 XA
+1.0000 0.5255 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-4715.3295 -951.1002 m
+-4715.9599 -595.8462 L
+S
+1.0000 0.5255 0.0000 XA
+1.0000 0.5255 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-4874.8660 -1010.2972 m
+-4874.8660 -1072.0343 L
+S
+LB
+%AI5_EndLayer--
+%AI5_BeginLayer
+1 1 1 1 0 0 -1 0 0 0 Lb
+(D::cut) Ln
+0 A
+0 R
+0.0000 0.0000 0.0000 XA
+0.0000 0.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-4715.3295 -951.1002 m
+-4793.9622 -951.1002 L
+-4793.9622 -835.1917 L
+-4844.8322 -835.1732 L
+-4844.8322 -824.1323 L
+-4886.3484 -773.9673 L
+-4927.2166 -811.5037 L
+-4927.2166 -824.1323 L
+-4902.9255 -824.1323 L
+-4902.9255 -848.4324 L
+-4927.1048 -848.4515 L
+-4927.1048 -885.7340 L
+-4964.9964 -885.7340 L
+-4965.3195 -811.0938 L
+-5021.0778 -811.0938 L
+-5021.0778 -848.3012 L
+-5086.8834 -848.2637 L
+S
+0.0000 0.0000 0.0000 XA
+0.0000 0.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-4874.8660 -1010.2972 m
+-4927.1795 -1010.2972 L
+-4927.1048 -885.7340 L
+S
+0.0000 0.0000 0.0000 XA
+0.0000 0.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-4392.5123 -491.7671 m
+-4452.5572 -541.3849 L
+-4452.5809 -568.8106 L
+-4504.8263 -568.3407 L
+-4504.8263 -658.9045 L
+-4527.8099 -658.9045 L
+-4527.8099 -615.3293 L
+-4544.0518 -615.3293 L
+-4544.0518 -535.3476 L
+-4557.7406 -535.3476 L
+-4557.7406 -526.0225 L
+-4610.6549 -526.6387 L
+-4610.6549 -595.8462 L
+-4610.6549 -595.8462 L
+-4646.6904 -631.2461 L
+-4663.5691 -631.1124 L
+-4680.2809 -631.2461 L
+-4715.9599 -595.8462 L
+-4716.4198 -489.6115 L
+-4769.3977 -489.6115 L
+-4769.3977 -539.7919 L
+-4795.8548 -539.7919 L
+-4795.8548 -629.7701 L
+-4830.0348 -629.7701 L
+-4830.0348 -523.0651 L
+-4875.2263 -523.0651 L
+-4875.2263 -595.8462 L
+-4893.5290 -595.8462 L
+-4927.0345 -562.3468 L
+-4959.9127 -562.3468 L
+-4959.9127 -539.7919 L
+-5024.2764 -539.7919 L
+-5024.3845 -610.0194 L
+-5055.6339 -610.0194 L
+-5055.6339 -562.3468 L
+-5086.8834 -562.3468 L
+-5086.9994 -502.8741 L
+-5124.2169 -502.8741 L
+-5124.2169 -595.8462 L
+-5161.4343 -595.8462 L
+-5161.4343 -539.4182 L
+-5186.5935 -539.4182 L
+-5230.3872 -495.8413 L
+S
+LB
+%AI5_EndLayer--
+%%PageTrailer
+gsave annotatepage grestore showpage
+%%Trailer
+Adobe_IllustratorA_AI3 /terminate get exec
+Adobe_typography_AI3 /terminate get exec
+Adobe_customcolor /terminate get exec
+Adobe_cshow /terminate get exec
+Adobe_cmykcolor /terminate get exec
+Adobe_packedarray /terminate get exec
+%%EOF

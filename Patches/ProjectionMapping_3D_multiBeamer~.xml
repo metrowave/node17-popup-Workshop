@@ -1,0 +1,97 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv40beta19.1.dtd" >
+   <PATCH nodename="C:\Documents and Settings\Joreg\Desktop\ProjectionMapping_2ProjectorSetup\_root.v4p" componentmode="InAWindow">
+   <BOUNDS height="12660" left="0" top="5295" type="Window" width="16095">
+   </BOUNDS>
+   <NODE componentmode="InAWindow" id="5" nodename="RendererSetup.v4p" path="C:\Documents and Settings\Joreg\Desktop\ProjectionMapping_2ProjectorSetup\">
+   <BOUNDS height="100" left="2700" top="5505" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS left="2700" top="5505" type="Box">
+   </BOUNDS>
+   <PIN pinname="Layer In" visible="1">
+   </PIN>
+   <BOUNDS height="12660" left="0" top="5295" type="Window" width="16095">
+   </BOUNDS>
+   <PIN pinname="Single Perspective" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InAWindow" id="4" nodename="Inspektor (VVVV)">
+   <BOUNDS height="100" left="645" top="4785" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="3600" left="645" top="4785" type="Box" width="4800">
+   </BOUNDS>
+   <BOUNDS height="7350" left="16080" top="5310" type="Window" width="4920">
+   </BOUNDS>
+   </NODE>
+   <NODE componentmode="InAWindow" id="3" nodename="Content.v4p" path="C:\Documents and Settings\Joreg\Desktop\ProjectionMapping_2ProjectorSetup\">
+   <BOUNDS height="100" left="2700" top="4380" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="3600" left="2700" top="4380" type="Box" width="4800">
+   </BOUNDS>
+   <BOUNDS height="12660" left="0" top="5295" type="Window" width="16095">
+   </BOUNDS>
+   <PIN pinname="Layer Out" visible="1">
+   </PIN>
+   <PIN pinname="Single Perspective" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="5" dstpinname="Layer In" srcnodeid="3" srcpinname="Layer Out">
+   </LINK>
+   <NODE componentmode="InABox" id="2" nodename="IOBox (String)">
+   <BOUNDS height="690" left="480" top="405" type="Node" width="6075">
+   </BOUNDS>
+   <BOUNDS height="2820" left="480" top="405" type="Box" width="5280">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|this patch setup was created during a 5 day workshop at the FH Schwäbisch Gmünd.&cr;&lf;&cr;&lf;special thanks to thomas techert&cr;&lf;who modeled the 3d mesh of the building. |">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Pages" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Columns" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="1" nodename="IOBox (String)">
+   <BOUNDS height="690" left="4290" top="4830" type="Node" width="2475">
+   </BOUNDS>
+   <BOUNDS height="585" left="4290" top="4830" type="Box" width="3855">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|&lt;- always a good idea:&cr;&lf;     separate content from rendering|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="0" nodename="IOBox (String)">
+   <BOUNDS height="690" left="2625" top="5925" type="Node" width="6075">
+   </BOUNDS>
+   <BOUNDS height="4830" left="2625" top="5925" type="Box" width="5565">
+   </BOUNDS>
+   <BOUNDS height="160" left="300" top="300" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|the RendererSetup demonstrates how to project onto a an arbitrary surface (the building) with multiple projectors that share one perspective (the spectators view).&cr;&lf;&cr;&lf;note: for the simple content example (shading building by moving light) this would not be necessary. only if you want to do 3d-illusion effects in this setup it is actually necessary. |">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Pages" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Columns" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   </PATCH>

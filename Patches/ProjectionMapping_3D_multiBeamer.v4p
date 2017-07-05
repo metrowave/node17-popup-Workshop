@@ -1,0 +1,51 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\vvvv\myvvvv\Node17_popup\Node17_popup\Patches\ProjectionMapping_3D_multiBeamer.v4p" componentmode="InAWindow">
+   <BOUNDS height="11627" left="1379" top="259" type="Window" width="14805">
+   </BOUNDS>
+   <NODE componentmode="InAWindow" id="5" nodename="RendererSetup.v4p">
+   <BOUNDS height="100" left="453" top="3622" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS left="453" top="3622" type="Box">
+   </BOUNDS>
+   <PIN pinname="Layer In" visible="1">
+   </PIN>
+   <BOUNDS height="11627" left="1379" top="259" type="Window" width="14805">
+   </BOUNDS>
+   <PIN pinname="Single Perspective" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InAWindow" id="3" nodename="Content.v4p">
+   <BOUNDS height="100" left="453" top="2497" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="3600" left="453" top="2497" type="Box" width="4800">
+   </BOUNDS>
+   <BOUNDS height="11627" left="1379" top="259" type="Window" width="14805">
+   </BOUNDS>
+   <PIN pinname="Layer Out" visible="1">
+   </PIN>
+   <PIN pinname="Single Perspective" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="5" dstpinname="Layer In" srcnodeid="3" srcpinname="Layer Out">
+   </LINK>
+   <NODE componentmode="InABox" id="1" nodename="IOBox (String)">
+   <BOUNDS height="690" left="2043" top="2947" type="Node" width="2475">
+   </BOUNDS>
+   <BOUNDS height="585" left="2043" top="2947" type="Box" width="3855">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|&lt;- always a good idea:&cr;&lf;     separate content from rendering|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <PACK Name="vvvv-Message" Version="2.9.6">
+   </PACK>
+   <PACK Name="vvvv-ZeroMQ" Version="0.5.5">
+   </PACK>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   </PATCH>

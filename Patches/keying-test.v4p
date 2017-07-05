@@ -1,0 +1,51 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.5.dtd" >
+   <PATCH nodename="E:\docs1\vvvv workshop\keying-test.v4p" systemname="keying-test" filename="E:\docs1\vvvv workshop\keying-test.v4p">
+   <NODE systemname="keying-test-1" filename="keying-test-1.v4p" nodename="keying-test-1.v4p" componentmode="Hidden" id="0" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="1500" top="2029" width="5370" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1210" top="1620" width="14085" height="7275">
+   </BOUNDS>
+   <BOUNDS type="Window" left="3465" top="1050" width="14085" height="7275">
+   </BOUNDS>
+   <PIN pinname="keying texture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="keying color" visible="1" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Texture Out" visible="1">
+   </PIN>
+   <PIN pinname="threshold" slicecount="1" values="0.01">
+   </PIN>
+   <PIN pinname="threshold1" slicecount="1" values="0.82">
+   </PIN>
+   <PIN pinname="background texture" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="background texture1" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="keying color1" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="enable" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <NODE id="1" nodename="DX9Texture (EX9.Texture)" hiddenwhenlocked="1" systemname="DX9Texture (EX9.Texture)">
+   <BOUNDS height="0" left="3280" top="1500" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Source" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Texture Out" visible="1">
+   </PIN>
+   <PIN pinname="Width" pintype="Input" slicecount="1" visible="1" values="512">
+   </PIN>
+   <PIN pinname="Height" pintype="Input" slicecount="1" visible="1" values="512">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="1" srcpinname="Texture Out" dstnodeid="0" dstpinname="background texture1">
+   </LINK>
+   <BOUNDS type="Window" left="-1" top="-1" width="8370" height="3799">
+   </BOUNDS>
+   <PACK Name="vvvv-Message" Version="2.9.6">
+   </PACK>
+   <PACK Name="vvvv-ZeroMQ" Version="0.5.5">
+   </PACK>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   </PATCH>

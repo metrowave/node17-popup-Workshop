@@ -1,0 +1,157 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+   <PATCH nodename="E:\vvvv\Contributions\myvvvv\Node17_popup\Node17_popup\Patches\help.v4p" systemname="help" filename="E:\vvvv\Contributions\myvvvv\Node17_popup\Node17_popup\Patches\help.v4p" bgcolor="16777150" locked="0" scrollx="0" scrolly="-360">
+   <BOUNDS height="12090" left="16635" top="1005" type="Window" width="9090">
+   </BOUNDS>
+   <NODE componentmode="InABox" id="0" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="255" left="570" top="210" type="Node" width="2115">
+   </BOUNDS>
+   <BOUNDS height="360" left="570" top="210" type="Box" width="4365">
+   </BOUNDS>
+   <BOUNDS height="160" left="300" top="300" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="|vvvv - very basic help|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="12">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Lucida Sans Unicode|">
+   </PIN>
+   <PIN pinname="Show SliceIndex" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <PACK Name="VVVV.Packs" Version="0.2.0">
+   </PACK>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="9" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="570" top="9480" width="5925" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="9480" width="5685" height="330">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|all shortcuts:|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="8">
+   <BOUNDS type="Node" left="570" top="9870" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="9870" width="5355" height="345">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="http://vvvv.org/documentation/ui-reference">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Directory">
+   </PIN>
+   </NODE>
+   <PACK Name="dx11" Version="1.0.2">
+   </PACK>
+   <PACK Name="vvvv-Message" Version="2.9.6">
+   </PACK>
+   <PACK Name="vvvv-ZeroMQ" Version="0.5.5">
+   </PACK>
+   <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="10">
+   <BOUNDS type="Node" left="570" top="10935" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="10935" width="5355" height="345">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="https://vvvv.org/contributions">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Directory">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="11" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="570" top="10485" width="5925" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="10485" width="5685" height="330">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="contributions:">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="19" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="570" top="7620" width="5925" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="7620" width="5685" height="330">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|tutorials and documentation can be found online:|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="18">
+   <BOUNDS type="Node" left="570" top="8010" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="8010" width="3930" height="330">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="http://vvvv.org/documentation">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="URL">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="17" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="570" top="8445" width="5925" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="8445" width="5685" height="330">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|demos can be found here:|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="16">
+   <BOUNDS type="Node" left="570" top="8835" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="8835" width="4035" height="375">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="\..\..\..\girlpower">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Directory">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="21">
+   <BOUNDS type="Node" left="570" top="705" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="705" width="8085" height="6810">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="|basic patching:&cr;&lf;new node&tab;&tab;left doubleclick + start typing the nodename and select from upcoming list&cr;&lf;new iobox&tab;right doubleclick&cr;&lf;connecting   &cr;&lf;nodes&tab;&tab;click on a pin to start a connection. notice that all pins that will accept this connection&cr;&lf;&tab;&tab;have grown. click on such a bigger pin to establish the connection or right click to cancel&cr;&lf;&cr;&lf;featured shortcuts:&cr;&lf;F1&tab;&tab;if a node is selected its corresponding help patch will be loaded. else. this patch.&cr;&lf;Ctrl+F1&tab;&tab;FanClub. the online source to get help via IRC-Chat&cr;&lf;&cr;&lf;Main Menu&tab;middle mouse click on empty patch area (or right mouse click + space) &cr;&lf;Ctrl+P&tab;&tab;create new patch&cr;&lf;Ctrl+O&tab;&tab;open existing patch&cr;&lf;Ctrl+S&tab;&tab;save patch&cr;&lf;Ctrl+I&tab;&tab;create new inspektor&cr;&lf;Ctrl+W&tab;&tab;close a window (deletes its corresponding node)&cr;&lf;Ctrl+Shift+W&tab;close all windows and start all over again with a new root&cr;&lf;Alt+R&tab;&tab;show root&cr;&lf;Alt+F4&tab;&tab;quit&cr;&lf;&cr;&lf;Ctrl+Shift+1&tab;take a snapshot of the window and get asked for a place to save the file&cr;&lf;Ctrl+Shift+2&tab;same as above. but only snapshot the clientarea of the window&cr;&lf;Ctrl+y&tab;&tab;Change link type&cr;&lf;Ctrl+G&tab;&tab;group the currently selected nodes to a subpatch&cr;&lf;Ctrl+E&tab;&tab;Lock patch&cr;&lf;component modes of windows:&cr;&lf;Alt+1&tab;&tab;show as window&cr;&lf;Alt+2&tab;&tab;show as box (in corresponding patch)&cr;&lf;Alt+3&tab;&tab;hide window&cr;&lf;Alt+Enter&tab;&tab;fullscreen&cr;&lf;&cr;&lf;&cr;&lf;&cr;&lf;|">
+   </PIN>
+   </NODE>
+   </PATCH>
